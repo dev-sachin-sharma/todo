@@ -1,0 +1,69 @@
+.container {
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.addingContainer {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+}
+.addingContainer > input {
+  width: 85%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+
+.addingContainer > input:focus {
+  border-color: #8e49e8;
+}
+.addingContainer > button {
+  width: 50px;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 21px;
+  outline: none;
+  background: #8e49e8;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.todoItem {
+  background: #eeeeee;
+  padding: 10px;
+  font-size: 1rem;  
+  margin: 10px 0;
+  border-radius: 10px;
+  font-family: cursive;
+  -webkit-animation : pulse 5s infinite;
+    -moz-animation    : pulse 5s infinite;
+    -o-animation      : pulse 5s infinite;
+    animation         : pulse 5s infinite;
+
+}
+
+
+@-webkit-keyframes pulse {
+    0%   { -webkit-transform: scale(1)   ; opacity: 1;    }
+    50%  { -webkit-transform: scale(0.75); opacity: 0.25; }
+    100% { -webkit-transform: scale(1)   ; opacity: 1;    }
+ }
